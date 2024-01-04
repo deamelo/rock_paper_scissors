@@ -2,20 +2,59 @@
 
   Jogo PEDRA X PAPEL X TESOURA
 
-## 1. Regras
+## 🚀 Tecnologia
 
-  1.1 - Dois jogadores se enfrentam => 'player_1' e 'player_2'
-  1.2 - Existem três opções de jogadas (MOVES) => 'rock', 'paper', 'scissors'
-  1.3 - As jogadas serão escolhidas de forma aleatória e podem ser repetidas ou não
-  1.4 - Os jogadores terão três chances
-  1.5 - Ganha o jogo quem ganhar mais jogadas, das três possíveis
+  Python 3.10.4 
+  (https://www.python.org/)
 
-## 2. Definição da partida
+## 🏁 Iniciando o projeto
 
-  2.1 - 'rock' empata com 'rock', ganha de 'scissors' e perde para 'paper'
-  2.2 - 'paper' empata com 'paper', ganha de 'rock' e perde para 'scissors'
-  2.3 - 'scissors' empata com 'scissors', ganha de 'paper' e perde para 'rock'
+    ```bash
+        # Crie o python environment
 
-### Jogando
+            $ python -m venv .venv
 
-  No terminal rode ```python main.py``` e veja o resultado.
+        # Ative o environment
+
+            $ source ./.venv/bin/activate
+
+        # Para desativar a máquina virtual python (virtualenv):
+
+            $ deactivate
+
+        # Instale o pytest
+
+            $ pip install pytest
+    ```
+
+
+## 📜 Regras
+
+  - Dois jogadores se enfrentam -> 'player_1' e 'player_2'
+  - Existem três opções de jogadas (MOVES) -> 'rock', 'paper', 'scissors'
+  - As jogadas serão escolhidas de forma aleatória e podem ser repetidas ou não
+  - Os jogadores terão três chances
+  - Ganha o jogo quem ganhar mais jogadas, das três possíveis
+
+## 🏆 Definição da partida
+
+  - 'rock' empata com 'rock', ganha de 'scissors' e perde para 'paper'
+  - 'paper' empata com 'paper', ganha de 'rock' e perde para 'scissors'
+  - 'scissors' empata com 'scissors', ganha de 'paper' e perde para 'rock'
+
+### 🕹️ Jogando
+
+  ```bash
+      # Para rodar o jogo
+
+        $ python main.py
+  ```
+
+## 🚨 Testes
+### **Rodando os Testes** ✅
+
+  ```bash
+      # Para rodar os testes unitários
+
+        $ pytest -vv
+  ```

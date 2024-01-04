@@ -1,14 +1,19 @@
-import game
+from game import play
 
 
 def main():
-    game.get_moves()
-    matches = game.get_player()
-    game.play_round()
-    result_game = game.win_game()
+    matches = play.get_players()
+    result = play.play_rounds(matches)
+    pl_1 = result["player_1"]
+    pl_2 = result["player_2"]
 
     print(f"Matches: {matches}")
-    print(f"Game Result: {result_game}")
+    if pl_1 > pl_2:
+        print(f"PLAYER 1 WIN -> Player_1: {pl_1} x Player_2: {pl_2}")
+    elif pl_1 < pl_2:
+        print(f"PLAYER 2 WIN -> Player_2: {pl_2} x Player_1: {pl_1}")
+    else:
+        print("No winner")
 
 
 if __name__ == "__main__":
