@@ -9,6 +9,8 @@
 
 ## 🏁 Iniciando o projeto
 
+  ***Tenha o python instalado em sua máquina e faça o clone do projeto***
+
     ```bash
         # Crie o python environment
 
@@ -42,7 +44,7 @@
   - 'paper' empata com 'paper', ganha de 'rock' e perde para 'scissors'
   - 'scissors' empata com 'scissors', ganha de 'paper' e perde para 'rock'
 
-### 🕹️ Jogando
+## 🕹️ Jogando
 
   ```bash
       # Para rodar o jogo
