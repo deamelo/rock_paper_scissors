@@ -1,21 +1,28 @@
-# rock_paper_scissors
+As regras do jogo "Pedra, Papel, Tesoura" em uma disputa melhor de 3 são as seguintes:
 
-  Jogo PEDRA X PAPEL X TESOURA
+*Objetivo do Jogo:* O objetivo é vencer o adversário selecionando um símbolo (pedra, papel ou tesoura) que derrote o símbolo escolhido pelo oponente.
 
-## 1. Regras
+*Símbolos do Jogo:*
 
-  1.1 - Dois jogadores se enfrentam => 'player_1' e 'player_2'
-  1.2 - Existem três opções de jogadas (MOVES) => 'rock', 'paper', 'scissors'
-  1.3 - As jogadas serão escolhidas de forma aleatória e podem ser repetidas ou não
-  1.4 - Os jogadores terão três chances
-  1.5 - Ganha o jogo quem ganhar mais jogadas, das três possíveis
+Pedra: derrota a tesoura (esmagando-a).
+Papel: derrota a pedra (cobrindo-a).
+Tesoura: derrota o papel (cortando-o).
 
-## 2. Definição da partida
+*Como Jogar:*
 
-  2.1 - 'rock' empata com 'rock', ganha de 'scissors' e perde para 'paper'
-  2.2 - 'paper' empata com 'paper', ganha de 'rock' e perde para 'scissors'
-  2.3 - 'scissors' empata com 'scissors', ganha de 'paper' e perde para 'rock'
+Os jogadores contam juntos "um, dois, três" e ao mesmo tempo mostram um dos três símbolos com a mão.
+Cada partida é rápida, geralmente durando apenas alguns segundos.
 
-### Jogando
+*Melhor de 3:*
 
-  No terminal rode ```python main.py``` e veja o resultado.
+Os jogadores disputam várias partidas até que um dos jogadores vença duas delas.
+Se um jogador ganha as duas primeiras partidas, ele é o vencedor e a terceira partida não é necessária.
+Se cada jogador ganha uma das primeiras duas partidas, a terceira partida é jogada para determinar o vencedor.
+
+*Empates:*
+
+Se ambos os jogadores escolhem o mesmo símbolo, a partida é considerada um empate e deve ser repetida.
+
+*Vitória:*
+
+O jogador que vencer duas das três partidas é declarado o vencedor do jogo.
